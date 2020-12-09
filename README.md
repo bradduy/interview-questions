@@ -230,6 +230,35 @@ A clever way to think about this is to think of Type I error as telling a man he
 #### 55) What’s the difference between a generative and discriminative model? [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
 
+#### 56) Given stride and kernel sizes for each layer of a (1-dimensional) CNN
+
+#### 56.1) create a function to compute the receptive field of a particular node in the network. This is just finding how many input nodes actually connect through to a neuron in a CNN.
+Receptive field: https://www.quora.com/What-is-a-receptive-field-in-a-convolutional-neural-network
+
+#### 57) Implement connected components on an image/matrix. I've been asked this twice; neither actually said the words "connected components" at all though. One wanted connected neighbors if the values were identical, the other wanted connected neighbors if the difference was under some threshold.
+Connected components: https://aishack.in/tutorials/labelling-connected-components-example/
+
+#### 58) (During phone screen) How would you implement a sparse matrix class in C++? (On-site) Implement a sparse matrix class in C++. Implement a dot-product method on the class.
+Sparse matrix: https://en.wikipedia.org/wiki/Sparse_matrix
+
+#### 59) Create a function to compute an integral image, and create another function to get area sums from the integral image.
+Integral image: https://en.wikipedia.org/wiki/Summed-area_table
+
+#### 60) How would you remove outliers when trying to estimate a flat plane from noisy samples?
+Remove outliers: https://en.wikipedia.org/wiki/Random_sample_consensus
+
+#### 61) How does CBIR work?
+CBIR: https://www.robots.ox.ac.uk/~vgg/publications/2013/arandjelovic13/arandjelovic13.pdf
+
+#### 62) How does image registration work? Sparse vs. dense optical flow and so on.
+Optical flow: http://www.ncorr.com/download/publications/bakerunify.pdf
+
+#### 63) Describe how convolution works. What about if your inputs are grayscale vs RGB imagery? What determines the shape of the next layer?
+
+#### 64) Stuff about colorspace transformations and color-based segmentation (esp. talking about YUV/Lab/HSV/etc).
+
+#### 65) Talk me through how you would create a 3D model of an object from imagery and depth sensor measurements taken at all angles around the object.
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
